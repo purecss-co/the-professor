@@ -2307,4 +2307,73 @@ body {
       transform: rotate(-60deg);
     }
   }
+
+  &-5 {
+    z-index: 6;
+    width: 1.6vmin;
+    height: 1vmin;
+    background: $dark-color;
+    top: 24.4vmin;
+    left: 28vmin;
+    transform: rotate(-30deg);
+    border-radius: 0 0 0 40%;
+
+    &::before {
+      width: 1.6vmin;
+      height: 1.1vmin;
+      background: $bg-color;
+      top: -0.3vmin;
+      left: 0.25vmin;
+      border-radius: 40% 0 0 40%;
+    }
+  }
+
+  &-6 {
+    z-index: 6;
+    width: 1.7vmin;
+    height: 2.2vmin;
+    background: $dark-color;
+    top: 24.7vmin;
+    left: 31.6vmin;
+    transform: rotate(-20deg);
+    border-radius: 0 0 1.8vmin 0;
+
+    &::before {
+      width: 0.5vmin;
+      height: 2vmin;
+      background: $bg-color;
+      top: 0.7vmin;
+      left: -0.2vmin;
+      transform: rotate(-13deg);
+    }
+
+    &::after {
+      width: 1.2vmin;
+      height: 0.6vmin;
+      background: $bg-color;
+      top: 2vmin;
+      left: -0.1vmin;
+      transform: rotate(20deg);
+    }
+  }
+
+  &-7 {
+    z-index: 6;
+    width: 1.4vmin;
+    height: 2vmin;
+    background: $bg-color;
+    top: 23.2vmin;
+    left: 31.3vmin;
+    transform: rotate(-20deg) skewX(-10deg);
+    border-radius: 50%;
+
+    &::before {
+      width: 3vmin;
+      height: 0.6vmin;
+      background: $bg-color;
+      top: 0.35vmin;
+      left: -0.5vmin;
+      transform: rotate(-9deg);
+    }
+  }
 }
