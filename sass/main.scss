@@ -2015,4 +2015,24 @@ body {
       border-radius: 50%;
     }
   }
+
+  &-11 {
+    z-index: 6;
+    width: 5vmin;
+    height: 2.2vmin;
+    background: $shadow-dark-color;
+    top: 14.5vmin;
+    left: 6.3vmin;
+    transform: rotate(5deg);
+    border-radius: 50%;
+
+    &::before {
+      width: 6vmin;
+      height: 2.2vmin;
+      background: $bg-color;
+      top: -0.3vmin;
+      left: -0.3vmin;
+      border-radius: 0 0 50% 50%;
+    }
+  }
 }
