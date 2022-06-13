@@ -1944,4 +1944,75 @@ body {
     left: -11.5vmin;
     transform: rotate(12deg);
   }
+
+  &-8 {
+    z-index: 6;
+    width: 4vmin;
+    height: 1vmin;
+    background: $shadow-dark-color;
+    top: -3.6vmin;
+    left: 17.45vmin;
+    transform: rotate(8deg);
+    border-radius: 40%;
+
+    &::before {
+      width: 1.1vmin;
+      height: 4vmin;
+      background: $dark-color;
+      left: 4vmin;
+      transform: rotate(-22deg);
+      border-radius: 50%;
+    }
+
+    &::after {
+      width: 1.1vmin;
+      height: 4.1vmin;
+      background: $shadow-dark-color;
+      top: 0vmin;
+      left: 3.8vmin;
+      transform: rotate(-22deg);
+      border-radius: 50%;
+    }
+  }
+
+  &-9 {
+    z-index: 6;
+    width: 1vmin;
+    height: 4.5vmin;
+    background: $shadow-dark-color;
+    top: 6.3vmin;
+    left: 20.6vmin;
+    transform: rotate(32deg);
+    border-radius: 50%;
+
+    &::before {
+      width: 3vmin;
+      height: 4.2vmin;
+      background: $shadow-dark-color;
+      top: -1.6vmin;
+      left: -3vmin;
+      transform: rotate(-32deg);
+      border-radius: 20%;
+    }
+  }
+
+  &-10 {
+    z-index: 6;
+    width: 3vmin;
+    height: 6vmin;
+    background: $bg-color;
+    top: 0.3vmin;
+    left: 15.5vmin;
+    transform: rotate(-35deg);
+    border-radius: 50%;
+
+    &::before {
+      width: 2vmin;
+      height: 5vmin;
+      background: $bg-color;
+      top: 3.4vmin;
+      transform: rotate(38deg);
+      border-radius: 50%;
+    }
+  }
 }
