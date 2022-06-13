@@ -2376,4 +2376,32 @@ body {
       transform: rotate(-9deg);
     }
   }
+
+  &-8 {
+    z-index: 6;
+    width: 1vmin;
+    height: 2.4vmin;
+    background: $dark-color;
+    top: 19.9vmin;
+    left: 32.3vmin;
+    border-radius: 0 0 75% 0;
+
+    &::before {
+      width: 1vmin;
+      height: 2.5vmin;
+      background: $bg-color;
+      top: -0.1vmin;
+      left: -0.3vmin;
+      border-radius: 0 0 55% 0;
+    }
+
+    &::after {
+      width: 0.3vmin;
+      height: 0.8vmin;
+      background: $dark-color;
+      top: -0.35vmin;
+      left: 0.6vmin;
+      transform: rotate(-13deg);
+    }
+  }
 }
