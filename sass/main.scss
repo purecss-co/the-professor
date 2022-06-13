@@ -2201,3 +2201,110 @@ body {
     }
   }
 }
+
+.nose {
+  &-1 {
+    z-index: 6;
+    width: 3vmin;
+    height: 3.5vmin;
+    background: $dark-color;
+    top: 23vmin;
+    left: 15.1vmin;
+    border-radius: 1.5vmin 0 50% 50%;
+
+    &::before {
+      width: 3vmin;
+      height: 3.1vmin;
+      background: $bg-color;
+      top: -0.1vmin;
+      left: 0.4vmin;
+      transform: skewX(-4deg);
+      border-radius: 1.5vmin 0 50% 50%;
+    }
+
+    &::after {
+      width: 1vmin;
+      height: 1vmin;
+      background: $bg-color;
+      top: -0.2vmin;
+      left: 1.1vmin;
+    }
+  }
+
+  &-2 {
+    z-index: 6;
+    width: 5.2vmin;
+    height: 1.9vmin;
+    background: $dark-color;
+    top: 24.4vmin;
+    left: 22vmin;
+    border-radius: 60% 40% 70% 30% / 100% 80% 20% 0;
+
+    &::before {
+      width: 3vmin;
+      height: 1vmin;
+      background: $bg-color;
+      top: -0.4vmin;
+      left: -0.3vmin;
+      transform: rotate(-30deg);
+    }
+
+    &::after {
+      width: 2vmin;
+      height: 0.5vmin;
+      background: $dark-color;
+      top: 0.4vmin;
+      left: 0.5vmin;
+      transform: rotate(-30deg);
+      border-radius: 50%;
+    }
+  }
+
+  &-3 {
+    z-index: 6;
+    width: 4vmin;
+    height: 0.5vmin;
+    background: $bg-color;
+    top: 25.9vmin;
+    left: 22vmin;
+    border-radius: 50% 50% 0 0;
+
+    &::before {
+      width: 0.7vmin;
+      height: 2.5vmin;
+      background: $bg-color;
+      top: -1.1vmin;
+      transform: rotate(60deg);
+    }
+
+    &::after {
+      width: 3vmin;
+      height: 1.5vmin;
+      background: $bg-color;
+      top: -1vmin;
+      left: 1.2vmin;
+      transform: rotate(-11deg);
+      border-radius: 5% 100% 0 60%;
+    }
+  }
+
+  &-4 {
+    z-index: 6;
+    width: 2.2vmin;
+    height: 0.4vmin;
+    background: $bg-color;
+    top: 24.1vmin;
+    left: 22.5vmin;
+    transform: rotate(2deg);
+    border-radius: 50%;
+
+    &::before {
+      width: 0.5vmin;
+      height: 1vmin;
+      background: $bg-color;
+      top: 0.5vmin;
+      left: 2.8vmin;
+      transform: rotate(-60deg);
+    }
+  }
+}
