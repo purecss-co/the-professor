@@ -1313,7 +1313,6 @@ body {
       height: 0.5vmin;
       background: $bg-color;
       top: 16.7vmin;
-      box-shadow: 0 -16.6vmin 0 0.1vmin $bg-color;
     }
   }
 }
@@ -1474,5 +1473,82 @@ body {
     left: 30vmin;
     transform: rotate(60deg);
     border-radius: 0 100% 0 0;
+  }
+}
+
+.eyebrow-left {
+  z-index: 4;
+  width: 7.2vmin;
+  height: 2vmin;
+  background: $dark-color;
+  top: -5vmin;
+  left: 38.5vmin;
+  border-radius: 80% 30% 1.3vmin 10%;
+
+  &::before {
+    width: 6.4vmin;
+    height: 3.5vmin;
+    background: $bg-color;
+    top: 0.55vmin;
+    left: 0.45vmin;
+    transform: skewX(-8deg) rotate(5deg);
+    border-radius: 80% 30% 1.3vmin 10%;
+  }
+
+  &::after {
+    width: 0.4vmin;
+    height: 1vmin;
+    background: $dark-color;
+    top: -0.05vmin;
+    left: 7vmin;
+    transform: rotate(38deg);
+  }
+}
+
+.eyebrow-right {
+  &-1 {
+    z-index: 4;
+    width: 6vmin;
+    height: 3vmin;
+    background: $dark-color;
+    top: -7.5vmin;
+    left: -2vmin;
+    border-radius: 100% 0 0 0;
+
+    &::before {
+      width: 9.7vmin;
+      height: 8vmin;
+      background: $dark-color;
+      top: 0.15vmin;
+      left: 5.8vmin;
+      transform: rotate(1.9deg);
+      border-radius: 0 100% 0 0;
+    }
+
+    &::after {
+      width: 12.2vmin;
+      height: 6.3vmin;
+      background: $bg-color;
+      top: 0.9vmin;
+      left: -0.3vmin;
+      border-radius: 50%;
+    }
+  }
+
+  &-2 {
+    z-index: 4;
+    width: 12vmin;
+    height: 6vmin;
+    background: $bg-color;
+    top: 0.8vmin;
+    left: 13vmin;
+
+    &::before {
+      width: 1vmin;
+      height: 2vmin;
+      background: $bg-color;
+      top: -1vmin;
+      left: -5.2vmin;
+    }
   }
 }
