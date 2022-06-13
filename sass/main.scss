@@ -2121,7 +2121,7 @@ body {
     background: $dark-color;
     top: 2.35vmin;
     left: 2vmin;
-    border-radius: 0 0 0 80%;
+    border-radius: 0 0 0 70%;
 
     &::before {
       width: 3.5vmin;
@@ -2129,7 +2129,7 @@ body {
       background: $bg-color;
       top: -0.2vmin;
       transform: rotate(-2deg);
-      border-radius: 0 0 0 80%;
+      border-radius: 0 0 0 70%;
     }
 
     &::after {
@@ -2181,5 +2181,23 @@ body {
     left: 4.8vmin;
     transform: rotate(5deg);
     border-radius: 20% 20% 20% 70%;
+  }
+
+  &-8 {
+    z-index: 6;
+    width: 1vmin;
+    height: 0.1vmin;
+    background: $dark-color;
+    left: -2.7vmin;
+    transform: rotate(-30deg);
+
+    &::before {
+      width: 1vmin;
+      height: 0.1vmin;
+      background: $dark-color;
+      top: 0.45vmin;
+      left: -0.25vmin;
+      transform: rotate(70deg);
+    }
   }
 }
