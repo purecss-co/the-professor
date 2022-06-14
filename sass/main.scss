@@ -1626,20 +1626,12 @@ body {
 
   &-2 {
     z-index: 6;
-    width: 1.5vmin;
-    height: 0.6vmin;
+    width: 2vmin;
+    height: 4vmin;
     background: $bg-color;
-    top: -3.8vmin;
-    left: 45vmin;
-
-    &::before {
-      width: 2vmin;
-      height: 4vmin;
-      background: $bg-color;
-      top: 2vmin;
-      left: 5.15vmin;
-      transform: rotate(8deg);
-    }
+    top: 2vmin;
+    left: 56vmin;
+    transform: rotate(8deg);
   }
 
   &-3 {
