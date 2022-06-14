@@ -1307,13 +1307,6 @@ body {
       left: -0.15vmin;
       border-radius: 10%;
     }
-
-    &::after {
-      width: 1.5vmin;
-      height: 0.5vmin;
-      background: $bg-color;
-      top: 16.7vmin;
-    }
   }
 }
 
